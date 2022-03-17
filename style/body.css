@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Roboto:ital@1&display=swap");
+
+.html {
+  box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: antiquewhite;
+  font-family: "roboto";
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}

@@ -1,0 +1,6 @@
+.form__button {
+  margin-top: 20px;
+  border-radius: 3px;
+  padding: 11px 70px;
+  cursor: pointer;
+}

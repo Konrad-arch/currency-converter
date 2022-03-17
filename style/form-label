@@ -1,0 +1,9 @@
+.form__label {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.form__field {
+  padding: 4px 10px;
+}

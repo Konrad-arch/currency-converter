@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style/body.css">
+    <link rel="stylesheet" href="style/form-button">
+    <link rel="stylesheet" href="style/form-label">
+    <script defer src="skrypt/script.js"></script>
+    <title>Mega kalkulator walut 1.12</title>
+</head>
+
+<body>
+    <div>
+        <form class="form js-form">
+            <fieldset>
+                <legend>
+                    <h1>Kalkulator walutowy (przelicznik walut)</h1>
+                </legend>
+
+                <label class="form__label">
+                    <p>Wpisz kwotę PLN do przeliczenia:</p>
+                    <input type="number" class="js-amount form__field" name="amount" min="1" placeholder="podaj wartość"
+                        autofocus required step="0.01">
+                </label>
+
+                <p>Na jaką walutę chcesz wymienić?</p>
+
+                <select class="form__currency js-currency">
+                    <option value="EUR">EUR - euro</option>
+                    <option value="USD">USD - dolar amerykański</option>
+                </select>
+
+                <div>
+                    <button class="js-form__button form__button">przelicz</button>
+                </div>
+
+                <p class="js-result form__result">Wynik będzie dostępny po podaniu kwoty</p>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
