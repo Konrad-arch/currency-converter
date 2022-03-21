@@ -23,8 +23,9 @@ formElement.addEventListener("submit", (event) => {
       result = amount / RatUSD;
       break;
   }
-
-  resultElement.innerHTML = `Wynik: ${amount.toFixed(
-    2
-  )} PLN = <strong> ${result.toFixed(2)} ${currency} </strong>`;
+  {
+    resultElement.innerHTML = `Wynik: ${amount.toFixed(
+      2
+    )} PLN = <strong> ${result.toFixed(2)} ${currency} </strong>`;
+  }
 });
